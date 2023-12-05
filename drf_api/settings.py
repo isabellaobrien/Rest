@@ -60,7 +60,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = 'DEV' in os.environ
 
 # ALLOWED_HOSTS = ['8000-isabellaobrien-rest-os6pc1bw49l.ws-eu106.gitpod.io']
-ALLOWED_HOSTS = ['localhost', 'django-rest-framework-walkt.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'https://django-rest-framework-walkt-edc139f1a895.herokuapp.com/']
 
 # Application definition
 
