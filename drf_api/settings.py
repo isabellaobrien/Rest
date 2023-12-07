@@ -58,7 +58,7 @@ REST_AUTH_SERIALIZERS = {
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # ALLOWED_HOSTS = ['8000-isabellaobrien-rest-os6pc1bw49l.ws-eu106.gitpod.io']
 # ALLOWED_HOSTS = ['localhost', 'django-rest-framework-walkt-edc139f1a895.herokuapp.com']
