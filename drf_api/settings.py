@@ -63,7 +63,7 @@ DEBUG = True
 # ALLOWED_HOSTS = ['8000-isabellaobrien-rest-os6pc1bw49l.ws-eu106.gitpod.io']
 # ALLOWED_HOSTS = ['localhost', 'django-rest-framework-walkt-edc139f1a895.herokuapp.com']
 ALLOWED_HOSTS = [
-    os.environ.get('ALLOWED_HOST'),
+    os.environ.get('ALLOWED_HOSTS'),
    'localhost',
 ]
 
